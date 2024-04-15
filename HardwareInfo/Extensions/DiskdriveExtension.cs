@@ -1,0 +1,62 @@
+using HardwareInfo.Types;
+
+namespace HardwareInfo.Extensions;
+
+public static class DiskdriveExtension
+{
+    public static string GetText(this Diskdrive diskdrive) => diskdrive switch
+    {
+        Diskdrive.Availability => "Availability",
+        Diskdrive.BytesPerSector => "BytesPerSector",
+        Diskdrive.Capabilities => "Capabilities",
+        Diskdrive.CapabilityDescriptions => "CapabilityDescriptions",
+        Diskdrive.Caption => "Caption",
+        Diskdrive.CompressionMethod => "CompressionMethod",
+        Diskdrive.ConfigManagerErrorCode => "ConfigManagerErrorCode",
+        Diskdrive.ConfigManagerUserConfig => "ConfigManagerUserConfig",
+        Diskdrive.CreationClassName => "CreationClassName",
+        Diskdrive.DefaultBlockSize => "DefaultBlockSize",
+        Diskdrive.Description => "Description",
+        Diskdrive.DeviceID => "DeviceID",
+        Diskdrive.ErrorCleared => "ErrorCleared",
+        Diskdrive.ErrorDescription => "ErrorDescription",
+        Diskdrive.ErrorMethodology => "ErrorMethodology",
+        Diskdrive.FirmwareRevision => "FirmwareRevision",
+        Diskdrive.Index => "Index",
+        Diskdrive.InstallDate => "InstallDate",
+        Diskdrive.InterfaceType => "InterfaceType",
+        Diskdrive.LastErrorCode => "LastErrorCode",
+        Diskdrive.Manufacturer => "Manufacturer",
+        Diskdrive.MaxBlockSize => "MaxBlockSize",
+        Diskdrive.MaxMediaSize => "MaxMediaSize",
+        Diskdrive.MediaLoaded => "MediaLoaded",
+        Diskdrive.MediaType => "MediaType",
+        Diskdrive.MinBlockSize => "MinBlockSize",
+        Diskdrive.Model => "Model",
+        Diskdrive.Name => "Name",
+        Diskdrive.NeedsCleaning => "NeedsCleaning",
+        Diskdrive.NumberOfMediaSupported => "NumberOfMediaSupported",
+        Diskdrive.Partitions => "Partitions",
+        Diskdrive.PNPDeviceID => "PNPDeviceID",
+        Diskdrive.PowerManagementCapabilities => "PowerManagementCapabilities",
+        Diskdrive.PowerManagementSupported => "PowerManagementSupported",
+        Diskdrive.SCSIBus => "SCSIBus",
+        Diskdrive.SCSILogicalUnit => "SCSILogicalUnit",
+        Diskdrive.SCSIPort => "SCSIPort",
+        Diskdrive.SCSITargetId => "SCSITargetId",
+        Diskdrive.SectorsPerTrack => "SectorsPerTrack",
+        Diskdrive.SerialNumber => "SerialNumber",
+        Diskdrive.Signature => "Signature",
+        Diskdrive.Size => "Size",
+        Diskdrive.Status => "Status",
+        Diskdrive.StatusInfo => "StatusInfo",
+        Diskdrive.SystemCreationClassName => "SystemCreationClassName",
+        Diskdrive.SystemName => "SystemName",
+        Diskdrive.TotalCylinders => "TotalCylinders",
+        Diskdrive.TotalHeads => "TotalHeads",
+        Diskdrive.TotalSectors => "TotalSectors",
+        Diskdrive.TotalTracks => "TotalTracks",
+        Diskdrive.TracksPerCylinder => "TracksPerCylinder",
+        _ => throw new ArgumentOutOfRangeException(nameof(diskdrive), diskdrive, null)
+    };
+}

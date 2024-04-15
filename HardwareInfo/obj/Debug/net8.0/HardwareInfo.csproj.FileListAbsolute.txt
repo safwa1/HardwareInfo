@@ -1,0 +1,14 @@
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\bin\Debug\net8.0\HardwareInfo.exe
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\bin\Debug\net8.0\HardwareInfo.deps.json
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\bin\Debug\net8.0\HardwareInfo.runtimeconfig.json
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\bin\Debug\net8.0\HardwareInfo.dll
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\bin\Debug\net8.0\HardwareInfo.pdb
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\HardwareInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\HardwareInfo.AssemblyInfoInputs.cache
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\HardwareInfo.AssemblyInfo.cs
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\HardwareInfo.csproj.CoreCompileInputs.cache
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\HardwareInfo.dll
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\refint\HardwareInfo.dll
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\HardwareInfo.pdb
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\HardwareInfo.genruntimeconfig.cache
+C:\Users\Safwan\RiderProjects\HardwareInfo\HardwareInfo\obj\Debug\net8.0\ref\HardwareInfo.dll
